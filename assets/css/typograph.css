@@ -1,0 +1,170 @@
+.h-jumbotron{
+    font-size: 2.5vw;
+    padding-top: 10%;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border:none !important;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: blueviolet;
+}
+
+.lead{
+    font-size: 2vw;
+}
+
+.heading{
+    text-decoration: underline;
+    text-align: center;
+    font-family: Avanta Garde;
+}
+
+.about p{
+    font-size: 12px;
+    
+}
+h2{
+    font-family: Luminari,;
+}
+
+.diamond-shape{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 5vw;
+    width: 150px;
+    overflow: hidden;
+    transform: rotate(45deg);
+    background-color: #306bed;
+
+}
+.diamond-shape img{
+    width: 100%;
+    transform: rotate(-45deg) scale(0.9);
+}
+
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.5s ease-in-out;
+  }
+
+.scrolled-up{
+    transform:translateY(0); transition: all 0.1s ease-out;
+}
+
+@media (max-width: 900px) {
+    .h-jumbotron{
+        font-size: 4vw;
+    }
+    .lead{
+        font-size: 3vw;
+    }
+
+    .diamond-shape{
+        width: 150px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .h-jumbotron{
+        font-size: 3vw;
+    }
+    .lead{
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 720px) {
+    .h-jumbotron{
+        font-size: 5vw;
+    }
+    .lead{
+        font-size: 3vw;
+    }
+    .diamond-shape{
+        width: 100px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    .h-jumbotron{
+        font-size: 7vw;
+        padding-top: 25%;
+    }
+    .lead{
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 420px) {
+    .h-jumbotron{
+        font-size: 7vw;
+        padding-top: 45%;
+    }
+    .lead{
+        font-size: 4vw;
+    }
+    .diamond-shape{
+        width: 73px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+    }
+}
+
+@media (max-width: 320px) {
+    .navbar-brand{
+        font-size: 15px;
+    }
+    .h-jumbotron{
+        font-size: 6vw;
+        padding-top: 5%;
+    }
+    .lead{
+        font-size: 4vw;
+    }
+    .diamond-shape{
+        width: 32px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+
+    }
+    footer img{
+        width: 30px;
+    }
+}
+
+@media (max-width: 360px) {
+    .h-jumbotron{
+        font-size: 7vw;
+        margin-top: 10%;
+    }
+    .lead{
+        font-size: 4vw;
+    }
+    .diamond-shape{
+        width: 48px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    footer img{
+        width: 30px;
+    }
+}
+
+@media (max-width: 280px) {
+    .diamond-shape{
+        width: 37px;
+    }
+}
+
