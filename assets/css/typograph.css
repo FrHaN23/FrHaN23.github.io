@@ -104,9 +104,14 @@ h2{
     .lead{
         font-size: 4vw;
     }
+    .diamond-shape{
+        width: 70px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 470px) {
     .h-jumbotron{
         font-size: 7vw;
         padding-top: 45%;
@@ -115,10 +120,24 @@ h2{
         font-size: 4vw;
     }
     .diamond-shape{
-        width: 73px;
+        width: 70px;
         margin-bottom: 20px;
         margin-top: 20px;
+    }
+}
 
+@media (max-width: 440px) {
+    .h-jumbotron{
+        font-size: 7vw;
+        padding-top: 45%;
+    }
+    .lead{
+        font-size: 4vw;
+    }
+    .diamond-shape{
+        width: 68px;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
 }
 
@@ -164,7 +183,7 @@ h2{
 
 @media (max-width: 280px) {
     .diamond-shape{
-        width: 37px;
+        width: 27px;
     }
 }
 
